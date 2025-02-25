@@ -8,6 +8,7 @@ import {
   useTheme,
   useMediaQuery
 } from '@mui/material';
+import { useNavigate } from "react-router-dom";
 import { 
   Event as EventIcon, 
   Message as MessageIcon, 
@@ -22,6 +23,7 @@ import ServiceCard from '../components/sections/ServiceCard';
 const Home = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const navigate = useNavigate();
 
   const services = [
     {
@@ -125,6 +127,7 @@ const Home = () => {
               variant="contained" 
               size="large" 
               color="primary"
+              onClick={() => navigate("/about")}
             >
               Learn More About Our Services
             </Button>
@@ -203,6 +206,7 @@ const Home = () => {
                 variant="contained" 
                 color="primary"
                 size="large"
+                onClick={() => navigate("/about")}
               >
                 About Us
               </Button>
@@ -244,6 +248,7 @@ const Home = () => {
             <Button 
               variant="contained" 
               size="large"
+              onClick={() => navigate("/contact")}
               sx={{ 
                 backgroundColor: 'white',
                 color: theme.palette.primary.main,
