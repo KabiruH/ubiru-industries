@@ -7,6 +7,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import About from './pages/About';
 import Services from './pages/Services';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -16,11 +17,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Add more routes as pages are created */}
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
-          {/* Fallback route */}
+          <Route path="/contact" element={<Contact />} />
+   
           <Route path="/" element={<Home />} />
         </Routes>
         <Footer />

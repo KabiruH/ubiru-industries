@@ -1,10 +1,25 @@
-import React from 'react'
+// src/pages/Contact.jsx
+import React from 'react';
+import { Box } from '@mui/material';
 
-export default Contact
+// Import modular components
+import ContactHero from '../components/sections/Contact/ContactHero';
+import ContactForm from '../components/sections/Contact/ContactForm';
+import FAQ from '../components/sections/Contact/FAQ';
 
-return (
-    <div>
-        <h1>About Us</h1>
-        <p> This is the contact page</p>
-    </div>
-)
+const Contact = () => {
+    return (
+      <Box>
+        {/* Hero Section */}
+        <ContactHero />
+  
+        {/* Contact Form Section */}
+        <ContactForm />
+  
+        {/* Frequently Asked Questions */}
+        <FAQ />
+      </Box>
+    );
+  };
+
+export default Contact;
