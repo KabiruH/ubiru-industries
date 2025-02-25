@@ -139,7 +139,7 @@ const Home = () => {
             <Grid item xs={12} md={6}>
               <Box 
                 component="img"
-                src="/assets/images/team/team-working.jpg"
+                src="/team.jpg"
                 alt="Ubiru Industries Team"
                 sx={{
                   width: '100%',

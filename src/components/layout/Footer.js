@@ -59,7 +59,7 @@ const Footer = () => {
               gutterBottom
               sx={{ fontWeight: 'bold' }}
             >
-              UBIRU INDUSTRIES
+              Ubiru Industries
             </Typography>
             <Typography 
               variant="body2" 
@@ -177,19 +177,19 @@ const Footer = () => {
               <Box component="li" sx={{ py: 0.5, display: 'flex', alignItems: 'center' }}>
                 <LocationOnIcon color="inherit" fontSize="small" sx={{ mr: 1, color: theme.palette.text.secondary }} />
                 <Typography variant="body2" color="text.secondary">
-                  123 Business Avenue, Suite 100, City
+                 2-02, Superior Arcade, Accra Road, Nairobi, Kenya
                 </Typography>
               </Box>
               <Box component="li" sx={{ py: 0.5, display: 'flex', alignItems: 'center' }}>
                 <PhoneIcon color="inherit" fontSize="small" sx={{ mr: 1, color: theme.palette.text.secondary }} />
                 <Typography variant="body2" color="text.secondary">
-                  +1 (555) 123-4567
+                  +254 706 233 304
                 </Typography>
               </Box>
               <Box component="li" sx={{ py: 0.5, display: 'flex', alignItems: 'center' }}>
                 <EmailIcon color="inherit" fontSize="small" sx={{ mr: 1, color: theme.palette.text.secondary }} />
                 <Typography variant="body2" color="text.secondary">
-                  info@ubiruindustries.com
+                  ubiruafrica@gmail.com
                 </Typography>
               </Box>
             </Box>
