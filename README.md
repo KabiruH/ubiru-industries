@@ -2,8 +2,6 @@
 
 A modern, responsive React-based website for Ubiru Industries, a company providing comprehensive solutions across event planning, communications, software development, and hardware procurement.
 
-![Ubiru Industries](ui.jpg)
-
 ## Overview
 
 This website serves as a digital showcase for Ubiru Industries Ltd., presenting the company's services, mission, values, and history in a professional and engaging manner. The site is built with React and Material-UI to ensure a responsive, visually appealing experience across all devices.

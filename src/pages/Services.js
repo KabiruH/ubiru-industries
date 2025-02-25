@@ -14,8 +14,8 @@ import {
 
 // Import modular components
 import ServicesHero from '../components/sections/Services/ServicesHero';
-import ServicesOverview from '../components/sections/Services/ServicesHero';
-import ServiceCategory from '../components/sections/Services/ServicesHero';
+import ServicesOverview from '../components/sections/Services/ServicesOverview';
+import ServiceCategory from '../components/sections/Services/ServiceCategory';
 import CTASection from '../components/sections/About/CTASection';
 
 const Services = () => {
