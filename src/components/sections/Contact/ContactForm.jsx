@@ -88,7 +88,7 @@ const ContactForm = () => {
       console.error('Error submitting form:', error);
       setSnackbar({
         open: true,
-        message: 'There was an error submitting your message. Please try again.',
+        message: 'There was an error submitting your message. Please contact us directly using our phone number or email.',
         severity: 'error'
       });
     }
