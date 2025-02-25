@@ -156,7 +156,7 @@ const ContactForm = () => {
           </Paper>
         </Grid>
 
-       formStatus    {/* Contact Form */}
+       {/* Contact Form */}
         <Grid item xs={12} md={7}>
           <Paper elevation={3} sx={{ p: 4, borderRadius: '8px' }}>
             <Typography 
