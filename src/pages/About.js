@@ -1,10 +1,10 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import AboutHero from '../components/sections/AboutHero';
-import MissionVision from '../components/sections/MissionVision';
-import CompanyTimeline from '../components/sections/CompanyTimeline';
-import CoreValues from '../components/sections/CoreValues';
-import CTASection from '../components/sections/CTASection';
+import AboutHero from '../components/sections/About/AboutHero';
+import MissionVision from '../components/sections/About/MissionVision';
+import CompanyTimeline from '../components/sections/About/CompanyTimeline';
+import CoreValues from '../components/sections/About/CoreValues';
+import CTASection from '../components/sections/About/CTASection';
 
 const About = () => {
   return (

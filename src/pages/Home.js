@@ -17,8 +17,8 @@ import {
   Code as CodeIcon,
   Security as SecurityIcon
 } from '@mui/icons-material';
-import HeroCarousel from '../components/sections/HeroCarousel';
-import ServiceCard from '../components/sections/ServiceCard';
+import HeroCarousel from '../components/sections/Homepage/HeroCarousel';
+import ServiceCard from '../components/sections/Homepage/ServiceCard';
 
 const Home = () => {
   const theme = useTheme();

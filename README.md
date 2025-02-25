@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# Ubiru Industries Ltd. Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive React-based website for Ubiru Industries, a company providing comprehensive solutions across event planning, communications, software development, and hardware procurement.
 
-## Available Scripts
+![Ubiru Industries](ui.jpg)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This website serves as a digital showcase for Ubiru Industries Ltd., presenting the company's services, mission, values, and history in a professional and engaging manner. The site is built with React and Material-UI to ensure a responsive, visually appealing experience across all devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design**: Fully responsive layout that adapts to desktop, tablet, and mobile devices
+- **Modern UI**: Material Design-based interface with a clean, professional look
+- **Service Showcase**: Comprehensive display of services categorized by business area
+- **Dynamic Content**: Modular content components that are easy to update
+- **Single Page Application**: Fast navigation with React Router
+- **Optimized Performance**: Image optimization and efficient code structure
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: JavaScript library for building user interfaces
+- **React Router**: Navigation for single page applications
+- **Material-UI**: React component library implementing Google's Material Design
+- **Swiper**: Touch-enabled slider component
+- **ESLint/Prettier**: Code quality and formatting tools
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kabiruH/ubiru-industries.git
+   cd ubiru-industries
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the development server:
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Layout Components
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Navbar**: Main navigation component with responsive menu
+- **Footer**: Site footer with links and contact information
 
-### Code Splitting
+### Section Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **HeroCarousel**: Dynamic banner carousel displaying key messages
+- **ServiceCard**: Card component for individual services
+- **AboutHero**: Hero section for the About page
+- **MissionVision**: Company mission and vision statements
+- **CompanyTimeline**: Timeline of company history and milestones
+- **CoreValues**: Display of company values
+- **ServicesHero**: Hero section for the Services page
+- **ServicesOverview**: Overview cards for service categories
+- **ServiceCategory**: Detailed information about each service category
+- **CTASection**: Call-to-action section with contact button
 
-### Analyzing the Bundle Size
+## Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Theme
 
-### Making a Progressive Web App
+The Material-UI theme can be customized in `src/theme/index.js`. This file contains the color scheme, typography settings, and component style overrides.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Content
 
-### Advanced Configuration
+Content can be updated by modifying the data arrays in each page component:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Home.jsx**: Service cards information
+- **About.jsx**: Timeline events, core values
+- **Services.jsx**: Service categories, detailed service information
 
-### Deployment
+### Images
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Replace the image files in the `public` directory with your own images while keeping the same filenames, or update the image paths in the components.
 
-### `npm run build` fails to minify
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Build for Production
+
+```bash
+npm run build
+```
+
+This creates an optimized production build in the `build` folder that can be deployed to any static hosting service.
+
+### Deployment Options
+
+- **Netlify**: Connect your GitHub repository for continuous deployment
+- **Vercel**: Similar to Netlify with automatic deployments
+- **AWS S3**: Host as a static website
+- **GitHub Pages**: Free hosting for static sites
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+© 2025 Ubiru Industries Ltd. All rights reserved.
